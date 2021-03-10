@@ -33,4 +33,6 @@ public class RegistryHandler {
             new BlockItem(LEPRUNESE_BLOCK.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
     public static final RegistryObject<Item> LEPRUNESE_ORE_ITEM = ITEMS.register("leprunese_ore", () ->
             new BlockItem(LEPRUNESE_ORE.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
+    public static final RegistryObject<Item> LEPRUNESE_INGOT = ITEMS.register("leprunese_ingot", () ->
+            new Item(new Item.Properties().group(ModSetup.ITEM_GROUP)));
 }
