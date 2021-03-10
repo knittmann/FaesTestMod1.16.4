@@ -1,8 +1,8 @@
-/**
- * The entry class for Fae's Test Mod. Contains several methods/properties straight from Forge that
- * are required for successful operation of the mod.
- *
- * @author: Fae (Krista Nittmann)
+/*
+  The entry class for Fae's Test Mod. Contains several methods/properties straight from Forge that
+  are required for successful operation of the mod.
+
+  @author: Fae (Krista Nittmann)
  * @version: 1.0.0
  */
 
