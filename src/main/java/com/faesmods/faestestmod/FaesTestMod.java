@@ -1,5 +1,3 @@
-package com.faesmods.faestestmod;
-
 /**
  * The entry class for Fae's Test Mod. Contains several methods/properties straight from Forge that
  * are required for successful operation of the mod.
@@ -8,8 +6,12 @@ package com.faesmods.faestestmod;
  * @version: 1.0.0
  */
 
+package com.faesmods.faestestmod;
+
 import com.faesmods.faestestmod.init.RegistryHandler;
+import com.faesmods.faestestmod.world.gen.ModOreGen;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -35,21 +37,15 @@ public class FaesTestMod {
 
         // Register for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, ModOreGen::generateOres);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
         LOGGER.info("FAE'S TEST MOD SETTING UP...");
+        //ModOreGen.registerOres();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
-
-    // Custom ItemGroup TAB
-//    public static final ItemGroup TAB = new ItemGroup("faestestmodTab") {
-//        @Override
-//        public ItemStack createIcon() {
-//            return new ItemStack(ModItems.LEPRUNESE.get());
-//        }
-//    };
 }
