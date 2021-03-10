@@ -1,6 +1,7 @@
 {
-  "block.tutorial.leprunese_ore": "Leprunese Ore",
-  "block.tutorial.leprunese_block": "Block of Leprunese",
-  "itemGroup.faesTab": "Fae's Test Mod",
+  "block.faestestmod.leprunese_ore": "Leprunese Ore",
+  "block.faestestmod.leprunese_block": "Block of Leprunese",
+  "item.faestestmod.leprunese_ingot": "Leprunese Ingot",
+  "itemGroup.faestestmod": "Fae's Test Mod",
   "message.lepruneseblock": "A block made from leprunese ore"
 }

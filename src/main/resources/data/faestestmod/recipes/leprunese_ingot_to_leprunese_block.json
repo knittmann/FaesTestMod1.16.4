@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "faestestmod:leprunese_ingot"
+    }
+  },
+  "result": {
+    "item": "faestestmod:leprunese_block",
+    "count": 1
+  }
+}
