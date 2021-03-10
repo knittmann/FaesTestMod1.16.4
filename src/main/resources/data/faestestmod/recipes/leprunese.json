@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result":
+  {
+    "item": "faestestmod:leprunese",
+    "count": 3
+  }
+}
