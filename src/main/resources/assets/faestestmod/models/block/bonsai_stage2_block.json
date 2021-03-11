@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "faestestmod:blocks/bonsai_stage2_block"
+  }
+}

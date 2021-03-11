@@ -1,10 +1,13 @@
 package com.faesmods.faestestmod.init;
 
 import com.faesmods.faestestmod.FaesTestMod;
+import com.faesmods.faestestmod.blocks.BonsaiBlock;
 import com.faesmods.faestestmod.blocks.LepruneseBlock;
 import com.faesmods.faestestmod.blocks.LepruneseOre;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.BlockNamedItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -27,6 +30,7 @@ public class RegistryHandler {
     // BLOCKS (always register blocks before items because items usually need the blocks)
     public static final RegistryObject<Block> LEPRUNESE_BLOCK = BLOCKS.register("leprunese_block", LepruneseBlock::new);
     public static final RegistryObject<Block> LEPRUNESE_ORE = BLOCKS.register("leprunese_ore", LepruneseOre::new);
+    public static final RegistryObject<Block> BONSAI_BLOCK = BLOCKS.register("bonsai_block", BonsaiBlock::new);
 
     // ITEMS
     public static final RegistryObject<Item> LEPRUNESE_BLOCK_ITEM = ITEMS.register("leprunese_block", () ->
@@ -35,4 +39,7 @@ public class RegistryHandler {
             new BlockItem(LEPRUNESE_ORE.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
     public static final RegistryObject<Item> LEPRUNESE_INGOT = ITEMS.register("leprunese_ingot", () ->
             new Item(new Item.Properties().group(ModSetup.ITEM_GROUP)));
+    public static final RegistryObject<Item> BONSAI_SEEDS = ITEMS.register("bonsai_seed_item", () ->
+            new BlockNamedItem(BONSAI_BLOCK.get(), new Item.Properties().group(ModSetup.ITEM_GROUP)));
+
 }

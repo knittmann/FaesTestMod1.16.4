@@ -10,6 +10,8 @@ package com.faesmods.faestestmod;
 
 import com.faesmods.faestestmod.init.RegistryHandler;
 import com.faesmods.faestestmod.world.gen.ModOreGen;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
@@ -44,7 +46,7 @@ public class FaesTestMod {
     {
         // some preinit code
         LOGGER.info("FAE'S TEST MOD SETTING UP...");
-        //ModOreGen.registerOres();
+        RenderTypeLookup.setRenderLayer(RegistryHandler.BONSAI_BLOCK.get(), RenderType.getCutoutMipped());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }

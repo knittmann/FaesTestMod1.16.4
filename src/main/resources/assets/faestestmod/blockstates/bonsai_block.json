@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "faestestmod:block/bonsai_stage0_block"
+    },
+    "age=1": {
+      "model": "faestestmod:block/bonsai_stage1_block"
+    },
+    "age=2": {
+      "model": "faestestmod:block/bonsai_stage2_block"
+    },
+    "age=3": {
+      "model": "faestestmod:block/bonsai_stage3_block"
+    },
+    "age=4": {
+      "model": "faestestmod:block/bonsai_stage4_block"
+    },
+    "age=5": {
+      "model": "faestestmod:block/bonsai_stage5_block"
+    },
+    "age=6": {
+      "model": "faestestmod:block/bonsai_stage6_block"
+    },
+    "age=7": {
+      "model": "faestestmod:block/bonsai_stage7_block"
+    }
+  }
+}

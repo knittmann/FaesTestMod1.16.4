@@ -25,7 +25,7 @@ displayName="Fae's Test Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 # updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-# displayURL="https://github.com/knittmann/FaesTestMod1.16.4/wiki" #optional
+displayURL="https://github.com/knittmann/FaesTestMod1.16.4/wiki" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 # logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI

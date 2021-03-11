@@ -1,7 +1,9 @@
 {
   "block.faestestmod.leprunese_ore": "Leprunese Ore",
   "block.faestestmod.leprunese_block": "Block of Leprunese",
+  "block.faestestmod.bonsai_block": "Small Bonsai Tree",
   "item.faestestmod.leprunese_ingot": "Leprunese Ingot",
+  "item.faestestmod.bonsai_seed_item": "Bonsai Tree Seed",
   "itemGroup.faestestmod": "Fae's Test Mod",
   "message.lepruneseblock": "A block made from leprunese ore"
 }
