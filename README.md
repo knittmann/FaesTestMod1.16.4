@@ -18,24 +18,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/knittmann/FaesTestMod1.16.4">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Fae's Test Mod for Minecraft 1.16.4</h3>
+</p>
 
-  <p align="center">
+<p align="center">
     A mismash of Minecraft components for the sole purpose of me becoming familiar with Minecraft modding in 1.16.4.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/knittmann/FaesTestMod1.16.4"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/knittmann/FaesTestMod1.16.4/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/knittmann/FaesTestMod1.16.4/issues">Request Feature</a>
-  </p>
+    <a href="https://github.com/knittmann/FaesTestMod1.16.4">View Demo</a>·
+    <a href="https://github.com/knittmann/FaesTestMod1.16.4/issues">Report Bug</a>·
+    <a href="https://github.com/knittmann/FaesTestMod1.16.4/issues">Request Feature</a>.
 </p>
 
 
@@ -152,8 +150,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
 Project Link: [https://github.com/knittmann/FaesTestMod1.16.4](https://github.com/your_username/repo_name)
 
 
@@ -162,15 +158,6 @@ Project Link: [https://github.com/knittmann/FaesTestMod1.16.4](https://github.co
 ## Acknowledgements
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
@@ -178,15 +165,15 @@ Project Link: [https://github.com/knittmann/FaesTestMod1.16.4](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/knittmann/FaesTestMod1.16.4.svg?style=for-the-badge
 [contributors-url]: https://github.com/knittmann/FaesTestMod1.16.4/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/knittmann/FaesTestMod1.16.4.svg?style=for-the-badge
 [forks-url]: https://github.com/knittmann/FaesTestMod1.16.4/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/knittmann/FaesTestMod1.16.4.svg?style=for-the-badge
 [stars-url]: https://github.com/knittmann/FaesTestMod1.16.4/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/knittmann/FaesTestMod1.16.4.svg?style=for-the-badge
 [issues-url]: https://github.com/knittmann/FaesTestMod1.16.4/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/knittmann/FaesTestMod1.16.4.svg?style=for-the-badge
 [license-url]: https://github.com/knittmann/FaesTestMod1.16.4/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/knittmann
